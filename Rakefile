@@ -3,8 +3,8 @@ require 'rake'
 require 'echoe'
 
 Echoe.new('archivable', '0.1.0') do |p|
-  p.description    = "Add ActiveRecord methods for managing an arichive status."
-  p.url            = "" #"http://github.com/dandailey/archivable"
+  p.description    = "Add ActiveRecord methods for managing an archive status."
+  p.url            = "https://github.com/dandailey/archivable"
   p.author         = "Dan Dailey"
   p.email          = "dan@officetoweb.com"
   p.ignore_pattern = ["tmp/*", "script/*"]
